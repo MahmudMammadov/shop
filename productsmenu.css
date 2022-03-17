@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.products-container {
+  width: 100%;
+  height: auto;
+  background-color: #edf1f5;
+}
+.nav-products {
+  height: auto;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  opacity: 0.1;
+  transition: all 0.2s linear;
+}
+.nav-products.nav-active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+}
+.button-menu-choice {
+  border: none;
+  background: none;
+  color: white;
+}
+.icon-arrow {
+  margin-top: 70%;
+}
+.products-movebar-container {
+  width: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: auto;
+}
+.products-movebar {
+  position: absolute;
+  z-index: 1;
+}
+ul {
+  list-style: none;
+}
+ul.main li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+ul.main li {
+  float: left;
+  position: relative;
+  width: 120px;
+}
+ul li button {
+  display: block;
+  width: 120px;
+  border: none;
+  height: 40px;
+
+  color: #282828;
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: "Roboto" sans-serif;
+}
+.menu-light-mode {
+  background-color: white;
+  color: #000023;
+}
+.menu-dark-mode {
+  background-color: #3a3b3c;
+  color: #e7e9ed;
+}
+ul li button:hover {
+  background-color: #c6cdd3;
+  color: white;
+}
+ul.main li:hover ul {
+  display: block;
+}
+.menu-button > button {
+  background-color: red;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  ul.main li {
+    float: left;
+    position: relative;
+    width: 70px;
+  }
+  ul li button {
+    display: block;
+    width: 70px;
+    border: none;
+    height: 40px;
+    background-color: #edf1f5;
+    color: #282828;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Roboto" sans-serif;
+  }
+  .icon-arrow {
+    margin-top: 35px;
+  }
+}

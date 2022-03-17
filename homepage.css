@@ -1,0 +1,13 @@
+.homepage {
+  width: 100%;
+  height: auto;
+  transition: all 0.5 ease;
+}
+.homepagedarkcolor {
+  background-color: #18191a;
+  transition: all 0.5 ease;
+}
+.homepagelightcolor {
+  transition: all 0.5 ease;
+  background-color: #f5f5f5;
+}

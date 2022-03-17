@@ -1,0 +1,24 @@
+.linelightcolor {
+  color: #e7e9ed;
+  transition: all 0.5 ease;
+}
+.linedarkcolor {
+  color: #000023;
+  transition: all 0.5 ease;
+}
+.backlightcolor {
+  background: #ffffff;
+  transition: all 0.5 ease;
+}
+.backdarkcolor {
+  background: #242526;
+  transition: all 0.5 ease;
+}
+.deletentncolor {
+  color: rgba(255, 0, 0, 0.726);
+}
+.light-mode {
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+}
